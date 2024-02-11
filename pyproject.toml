@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "notifycord"
+version = "0.1.0"
+description = ""
+authors = ["baibai25 <kamuy.camel.0225@gmail.com>"]
+readme = "README.md"
+packages = [{include = "py_discord_notificator"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipykernel = "^6.29.2"
+requests = "^2.31.0"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.1"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
